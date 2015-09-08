@@ -13,7 +13,7 @@ NC='\033[0m'
 HERE=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 LOG="${HERE}/tests.log"
 
-declare -a repos=("augur-abi" "ethrpc" "keythereum" "augur-core" "augur.js")
+declare -a repos=("augur-abi" "ethrpc" "keythereum" "augur.js")
 
 echo -e "+${GRAY}==================${NC}+"
 echo -e "${GRAY}| \033[1;35maugur${NC} test suite ${GRAY}|${NC}"
@@ -28,7 +28,7 @@ for repo in "${repos[@]}"
 do
     fullpath="${HERE}/${repo}"
     url="https://github.com/AugurProject/${repo}"
-    echo -e " - ${TEAL}${repo}${NC} ${GRAY}[${url}]${NC}"
+    echo -e "${TEAL}${repo}${NC} ${GRAY}[${url}]${NC}"
 
     # remove existing directory
     if [ -d "${fullpath}" ]; then
@@ -58,5 +58,5 @@ do
 
     # clean up
     cd "${HERE}"
-    rm -rf "${fullpath}" >>LOG 2>&1
+    rm -rf "${fullpath}" >>"${LOG}" 2>&1
 done
