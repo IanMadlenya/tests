@@ -1,6 +1,8 @@
 Unified test runner
 ===================
 
+[![Build Status](https://travis-ci.org/AugurProject/tests.svg)](https://travis-ci.org/AugurProject/tests)
+
 Install and run tests for:
 
 - [augur-abi](https://github.com/AugurProject/augur-abi)
