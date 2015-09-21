@@ -1,7 +1,7 @@
 Unified test runner
 ===================
 
-Install and run unit tests for:
+Install and run tests for:
 
 - [augur-abi](https://github.com/AugurProject/augur-abi)
 - [ethrpc](https://github.com/AugurProject/ethrpc)
@@ -9,4 +9,9 @@ Install and run unit tests for:
 - [marketeer](https://github.com/AugurProject/marketeer)
 - [augur.js](https://github.com/AugurProject/augur.js)
 
-    $ ./runtests.sh
+Usage
+-----
+
+```
+$ ./runtests.sh
+```
