@@ -6,9 +6,11 @@ Unified test runner
 Install and run tests for:
 
 - [augur-abi](https://github.com/AugurProject/augur-abi)
+- [augur-core](https://github.com/AugurProject/augur-core)
 - [ethrpc](https://github.com/AugurProject/ethrpc)
 - [keythereum](https://github.com/AugurProject/keythereum)
-- [marketeer](https://github.com/AugurProject/marketeer)
+- [norm.js](https://github.com/tinybike/norm.js)
+- [multi-hash](https://github.com/tinybike/multi-hash)
 - [augur.js](https://github.com/AugurProject/augur.js)
 
 Usage
