@@ -46,6 +46,7 @@ do
     if [ "${repo}" == "augur-core" ]; then
         virtualenv venv >>"${LOG}" 2>&1
         source "${fullpath}/venv/bin/activate" >>"${LOG}" 2>&1
+        pip install -U pip
         pip install -r requirements.txt >>"${LOG}" 2>&1
         pip install -r test_requirements.txt >>"${LOG}" 2>&1
     else
