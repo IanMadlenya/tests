@@ -18,8 +18,7 @@ addons:
     - gcc-4.8
     - g++-4.8
 
-before_script:
-  - npm install
+install:
   - npm install jshint
 
 script:
