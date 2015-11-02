@@ -2,7 +2,7 @@
 # Augur test runner.
 # @author Jack Peterson (jack@tinybike.net)
 
-set -e
+#set -e
 trap "exit" INT
 
 TEAL='\033[0;36m'
