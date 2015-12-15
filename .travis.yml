@@ -35,3 +35,10 @@ before_install:
   - yes | geth --datadir ~/.ethereum-7 &
   - sleep 5
   - killall geth
+  - npm install -g npm
+
+install:
+  - npm install jshint
+
+script:
+  - ./runtests.sh
