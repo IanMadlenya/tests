@@ -13,7 +13,7 @@ NC='\033[0m'
 HERE=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 LOG="${HERE}/tests.log"
 
-declare -a repos=("geth.js" "augur-abi" "norm.js" "multi-hash" "keythereum" "augur-core" "ethrpc" "augur.js")
+declare -a repos=("geth.js" "augur-abi" "keythereum" "augur-core" "ethrpc" "augur.js")
 
 echo -e "+${GRAY}==================${NC}+"
 echo -e "${GRAY}| \033[1;35maugur${NC} test suite ${GRAY}|${NC}"
@@ -27,8 +27,8 @@ fi
 for repo in "${repos[@]}"
 do
     fullpath="${HERE}/${repo}"
-    if [ $repo = "norm.js" -o $repo = "multi-hash" ]; then
-        account="tinybike"
+    if [ $repo = "keythereum" -o $repo = "geth.js" ]; then
+        account="ethereumjs"
     else
         account="AugurProject"
     fi

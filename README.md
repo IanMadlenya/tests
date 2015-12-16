@@ -8,10 +8,8 @@ Install and run tests for:
 - [augur-abi](https://github.com/AugurProject/augur-abi)
 - [augur-core](https://github.com/AugurProject/augur-core)
 - [ethrpc](https://github.com/AugurProject/ethrpc)
-- [keythereum](https://github.com/AugurProject/keythereum)
-- [geth.js](https://github.com/AugurProject/geth.js)
-- [norm.js](https://github.com/tinybike/norm.js)
-- [multi-hash](https://github.com/tinybike/multi-hash)
+- [keythereum](https://github.com/ethereumjs/keythereum)
+- [geth.js](https://github.com/ethereumjs/geth.js)
 - [augur.js](https://github.com/AugurProject/augur.js)
 
 Usage
