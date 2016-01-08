@@ -13,7 +13,7 @@ NC='\033[0m'
 HERE=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 LOG="${HERE}/tests.log"
 
-declare -a repos=("geth.js" "augur-abi" "keythereum" "augur-core" "ethrpc" "augur.js")
+declare -a repos=("augur-abi" "keythereum" "augur-core" "geth.js" "ethrpc" "ramble" "augur.js")
 
 echo -e "+${GRAY}==================${NC}+"
 echo -e "${GRAY}| \033[1;35maugur${NC} test suite ${GRAY}|${NC}"
